@@ -8,7 +8,7 @@ def randWord(wordFile):
 
 
 def generateCodeName():
-	return randWord('data/adj.txt') + ' ' + randWord('data/verb.txt')
+	return randWord('data/adj.txt') + ' ' + randWord('data/noun.txt')
 
 
 if __name__ == '__main__':
